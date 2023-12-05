@@ -1,0 +1,15 @@
+/* @layer components { */
+.toast {
+  transition: transform 300ms ease-out;
+}
+.toast.preEnter,
+.toast.exiting {
+  transform: translateY(calc(-1 * 80px));
+}
+.toast.entered {
+  transform: translateY(0);
+}
+.toast.exited {
+  @apply hidden;
+}
+/* } */

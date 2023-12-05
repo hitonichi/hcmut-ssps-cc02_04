@@ -1,0 +1,9 @@
+.printing-form {
+  background-color: gray;
+  height: 100%;
+}
+
+#file-input,
+#file-input > div {
+  height: 100%;
+}
